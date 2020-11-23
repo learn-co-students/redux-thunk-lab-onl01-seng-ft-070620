@@ -50,7 +50,7 @@ import catsReducer from './reducers/catsReducer.js';
 
 const store = createStore(catsReducer)
 
-ReactDOM.render(
+ReactDOM.render( 
   <Provider store={store}>
     <App />
   </Provider>,
